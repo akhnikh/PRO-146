@@ -1,0 +1,23 @@
+<!DOCTYPE HTML/>
+<html>
+	<head>
+		<script src = 'https://aframe.io/releases/1.0.4/aframe.min.js'>  </script>
+		
+	</head>
+	<body>
+		<a-scene background = 'color: #AED6F1'>
+            <a-entity>
+                <a-camera position="0 5 -5"></a-camera>
+            </a-entity>
+			<a-box color =  'orange' position = '-4 8 0' width="3.2" height="2.2"></a-box>
+            <a-sphere color = 'black' position='-4.5 8 -0.5' radius="0.15" animation ="property position; from:-4.5 8 -0.5; to -4.5 8.4 -0.5; dir:alternate; loop:true dur: 1000;"></a-sphere>
+            <a-sphere color = 'black' position='-3.5 8 -0.5' radius="0.15" animation ="property position; from:-3.5 8 -0.5; to -4.5 8.4 -0.5; dir:alternate; loop:true dur: 1000;"></a-sphere>            
+            <a-sphere color = 'white' position='-4.5 8 0' radius="0.6"></a-sphere>
+            <a-sphere color = 'white' position='-3.5 8 0' radius="0.6"></a-sphere>
+            <a-box color = 'red' position = '-4 5.4 0' width="3.2" height="3.5"></a-box>
+            <a-box color="orange" position="-6 5.5 0" width="1" height="3"></a-box>
+            <a-box color="orange" position="-2 5.5 0" width="1" height="3"></a-box>
+            <a-plane color = 'gray' position = '-2 0 0' height = '10' width = '20' rotation = '-90 360 0'></a-plane>
+        </a-scene>	
+	</body>
+</html>
